@@ -28,6 +28,8 @@ The first step is to choose a box to use. A solution would be to create your own
 The first one has the advantage to be the default location for Vagrant itself to search for boxes. That means that you can directly use the name of the boxes you find here can be directly used in Vagrant (e.g. `ubuntu/trusty64`).  
 The second one doesn't allow that so you'll need to use the provided url but has a lot more different boxes than the previous one.
 
+### Adding a new box
+
 To add a box and make it usable in Vagrant, we are going to use the `vagrant box add` subcommand. In this example we will ad one box from each of the catalogs for you to see the different possibilities.  
 We are going to add the `ubuntu/trusty64` box from the Atlas catalog and the `Ubuntu 14.04` (url of the box: https://github.com/kraksoft/vagrant-box-ubuntu/releases/download/14.04/ubuntu-14.04-amd64.box) from the vagrantbox.es catalog.
 
@@ -64,6 +66,8 @@ And we can check that it is actually removed:
 
         $> vagran box list
         ubuntu/trusty64    (virtualbox, 14.04)
+
+### Creating a new Virtual Machine
 
 Now we are going to create a new Virtual Machine using the `ubuntu/trusty64` box. To have a clearer view of what is happening, create a new directory and move into it:
 
