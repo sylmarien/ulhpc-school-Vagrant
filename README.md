@@ -10,7 +10,7 @@ In this tutorial, we are going to go through the steps to install Vagrant and cr
 
 **Prerequisite:**
 
-Varant can use a lot of Virtual Machines provider such as VirtalBox, VMware and pretty any other provider but VirtualBox is the easier to use here since it is the default option in Vagrant and thus requires no additional work.
+Varant can use many of Virtual Machines provider such as VirtalBox, VMware and pretty any other provider but VirtualBox is the easier to use here since it is the default option in Vagrant and thus requires no additional work.
 
 The first thing is then to install VirtualBox. In most operating systems VirtualBox is provided as a package from the standard repositories, but if not, download the correct version for your operating system from the [official website](https://www.virtualbox.org/wiki/Downloads) and install it.
 
